@@ -1,0 +1,30 @@
+.judul {
+    color:rgb(6, 93, 128);
+    background-color: bisque;
+    margin-bottom: 30px;
+    border: 1px solid rgb(255, 193, 136);
+}
+.gambar {
+    margin: 10px;
+    border: 7px solid rgb(255, 193, 136)
+    }
+.tentang{
+    color:rgb(19, 50, 63);
+    margin-bottom: 30px;
+    border: 3px solid rgb(255, 193, 136); 
+}
+.keahlian{
+    color:rgb(19, 50, 63);
+    margin-bottom: 30px;
+    border: 3px solid rgb(255, 193, 136);
+}
+.pendidikan{
+    color:rgb(19, 50, 63);
+    margin-bottom: 30px;
+    border: 3px solid rgb(255, 193, 136);
+}
+.kontak{
+    color:rgb(19, 50, 63);
+    margin-bottom: 30px;
+    border: 3px solid rgb(255, 193, 136);
+}
