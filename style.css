@@ -1,30 +1,39 @@
 .judul {
     color:rgb(6, 93, 128);
-    background-color: bisque;
+    background-color: #FFE3B0;
     margin-bottom: 30px;
-    border: 1px solid rgb(255, 193, 136);
+    border: 1px solid #FFB677;
+    padding: 10px;
 }
 .gambar {
     margin: 10px;
-    border: 7px solid rgb(255, 193, 136)
+    border: 3px solid #000000
     }
 .tentang{
-    color:rgb(19, 50, 63);
+    color:rgb(0, 43, 59);
     margin-bottom: 30px;
-    border: 3px solid rgb(255, 193, 136); 
+    border: 1px solid #FFB677;
+    background-color: #FFE3B0;
+    padding: 5px;
 }
 .keahlian{
-    color:rgb(19, 50, 63);
+    color:rgb(0, 43, 59);
     margin-bottom: 30px;
-    border: 3px solid rgb(255, 193, 136);
+    border: 1px solid #FFB677;
+    background-color: #FFE3B0;
+    padding: 5px;
 }
 .pendidikan{
-    color:rgb(19, 50, 63);
+    color:rgb(0, 43, 59);
     margin-bottom: 30px;
-    border: 3px solid rgb(255, 193, 136);
+    border: 1px solid #FFB677;
+    background-color: #FFE3B0;
+    padding: 5px;
 }
 .kontak{
-    color:rgb(19, 50, 63);
+    color:rgb(0, 43, 59);
     margin-bottom: 30px;
-    border: 3px solid rgb(255, 193, 136);
+    border: 1px solid #FFB677;
+    background-color: #FFE3B0;
+    padding: 5px;
 }
