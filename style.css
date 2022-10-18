@@ -44,19 +44,3 @@
     background-color: #FFE3B0;
     padding: 5px;
 }
-/* Default (Smartphone) */
-.judul > h1{
-    width: 100%;
-}
-/* Default (Tablet) */
-@media (min-width: 760px;){
-    .judul > h1{
-        width: 80%;
-    }
-}
-/* Default (PC) */
-@media (min-width: 992px;){
-    .judul > h1{
-        width: 60%;
-    }
-}
