@@ -12,49 +12,28 @@
 #hero{
     height: 95vh;
 }
-.judul {
-    color:rgb(6, 93, 128);
-    background-color: #FFE3B0;
-    margin-bottom: 30px;
-    border: 1px solid #FFB677;
-    padding: 10px;
+.text-about{
+    text-indent: 50px;
+    text-align: justify;
 }
-.contact {
-    color:rgb(6, 93, 128);
-    background-color: #FFE3B0;
-    margin-bottom: 30px;
-    border: 1px solid #FFB677;
-    padding: 10px;
+.text-center{
+    font-family: 'Fredoka One', cursive;
 }
-.gambar {
-    margin: 10px;
-    border: 3px solid #000000
+.card-text{
+    letter-spacing: 3px;
+    text-align: center;
+}
+.card-title{
+    text-align: center;
+}
+.card-img-top{
+    height: 250px;
+    object-fit: cover;
     }
-.tentang{
-    color:rgb(0, 43, 59);
-    margin-bottom: 30px;
-    border: 1px solid #FFB677;
-    background-color: #FFE3B0;
-    padding: 5px;
+.card-img-top-1{
+    height: 200px;
+    object-fit: cover;
 }
-.keahlian{
-    color:rgb(0, 43, 59);
-    margin-bottom: 30px;
-    border: 1px solid #FFB677;
-    background-color: #FFE3B0;
-    padding: 5px;
-}
-.pendidikan{
-    color:rgb(0, 43, 59);
-    margin-bottom: 30px;
-    border: 1px solid #FFB677;
-    background-color: #FFE3B0;
-    padding: 5px;
-}
-.kontak{
-    color:rgb(0, 43, 59);
-    margin-bottom: 30px;
-    border: 1px solid #FFB677;
-    background-color: #FFE3B0;
-    padding: 5px;
+.ig{
+    letter-spacing: 3px;
 }
