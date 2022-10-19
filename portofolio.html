@@ -1,162 +1,211 @@
-<html>
-    <head>
-    <link rel="stylesheet" href="./styleportofolio.css">
-    <style>
-        body{
-            background-image: url(./Halaman\ Website.png);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-attachment: fixed;
-            height: 100%;
-        }
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
-        .nav ul {
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          overflow: hidden;
-          background-color: rgb(255, 255, 255);
-          box-shadow: 7px, 7px;
-        }
-        
-        .nav li {
-          float: left;
-        }
-        
-        .nav li a {
-          display: block;
-          color: rgb(0, 0, 0);
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-          font-weight: bold;
-        }
-        
-        .nav li a:hover {
-          background-color: rgb(255, 255, 255);
-        }
-        
-        .center ul{
-          width: -moz-fit-content;
-          width: -webkit-fit-content;
-          width: fit-content;
-          margin: auto;
-        }
-    </style>
-    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+</head>
+
     <body>
+        <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #EEF1FF;">
+            <div class="container">
+              <a class="navbar-brand fw-bolder text-dark" href="#">Nuarita Tri Kartika</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link" href="biodata.html">Biodata</a>
+                  <a class="nav-link active" href="portofolio.html">Portofolio</a>
+                  <a class="nav-link" href="contact.html">Contact Me</a>
+                </div>
+              </div>
+            </div>
+        </nav>
 
-        <div class="nav">
-        <ul>
-            <li><a href="index.html">Biodata</a></li>
-            <li><a href="">Portofolio</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-        </ul>
+        <div id="hero" class="container d-flex flex-column align-items-center justify-content-center">
+            <img src="Nuarita_.jpg" class="me rounded-circle" alt="">
+            <h1 class="title fw-bold">Nuarita Tri Kartika</h1>
+            <p class="subtitle">Mahasiswa|Studi Independen SEAL</p>
+            <i class="bi bi-arrow-down"></i>
         </div>
 
-        <h1 align="center" class="tugas">PORTOFOLIO</h1>
-        <center><img class="foto" src="Nuarita_.jpg" height="180" width="140"></center>
-        <h2 align="center" class="data">Data Pribadi</h2>
-        <ul>
-            <li>Nama : Nuarita Tri Kartika</li>
-            <li>Tempat Lahir : Sidoarjo</li>
-            <li>Tanggal Lahir : 26 Januari 2001</li>
-            <li>Agama : Islam</li>
-            <li>Jenis Kelamin : Perempuan</li>
-            <li>Status : Mahasiswa</li>
-        </ul>
-        <head>
-            <style>
-            table, tr, td, th{
-                border: 2px solid rgb(0, 0, 0)
-            }
-            </style>
-        </head>
-        <h2 align="center" class="hobi">Hobi Saya</h2>
-        <table>
-            <tr>
-                <th>Hobi</th>
-            </tr>
-            <tr>
-                <td>Travelling</td>
-            </tr>
-            <tr>
-                <td>Berenang</td>
-            </tr>
-            <tr>
-                <td>Bersepeda</td>
-            </tr>
-            <tr>
-                <td>Fotografi</td>
-            </tr>
+        <div class="class">
+            <h2 class="text-center mb-3">Data Diri</h2>
+            <table class="table container">
+                  <tbody>
+                    <tr>
+                      <td>Nama</td>
+                      <td>:</td>
+                      <td>Nuarita Tri Kartika</td>
+                    </tr>
+                    <tr>
+                        <td>Tempat Lahir</td>
+                        <td>:</td>
+                        <td>Sidoarjo</td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Lahir</td>
+                        <td>:</td>
+                        <td>26 Januari 2001</td>
+                    </tr>
+                    <tr>
+                        <td>Agama</td>
+                        <td>:</td>
+                        <td>Islam</td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>:</td>
+                        <td>Perempuan</td>
+                    </tr>
+                    <tr>
+                        <td>Status</td>
+                        <td>:</td>
+                        <td>Mahasiswa</td>
+                    </tr>
+                </tbody>
             </table>
-        <h2 align="center" class="kemampuan">Kemampuan Bahasa</h2>
-        <table>
-        <tr>
-            <th>Bahasa</th>
-        </tr>
-        <tr>
-            <td>Bahasa Indonesia</td>
-        </tr>
-        <tr>
-            <td>Bahasa Inggris</td>
-        </tr>
-        </table>
-        <h2 align="center" class="karakter">Karakter Saya</h2>
-        <table>
-        <tr>
-            <th>Karakter</th>
-        </tr>
-        <tr>
-            <td>Disiplin</td>
-        </tr>
-        <tr>
-            <td>Bertanggung Jawab</td>
-        </tr>
-        <tr>
-            <td>Baik</td>
-        </tr>
-        <tr>
-            <td>Sopan</td>
-        </tr>
-        <tr>
-            <td>Suka akan hal baru</td>
-        </tr>
-        <tr>
-            <td>Jujur</td>
-        </tr>
-        </table>
-        <h2 align="center" class="pengalaman">Pengalaman Organisasi Saya</h2>
-        <table>
-            <tr>
-                <th>Masa Organisasi</th>
-                <th>Pengalaman Organisasi</th>
-            </tr>
-            <tr>
-                <td>2018-2019</td>
-                <td>Pengurus Ekstrakurikuler Pikasso SMAN 1 Sooko Mojokerto</td>
-            </tr>
-            <tr>
-                <td>2021-2022</td>
-                <td>Pengurus UKM Renang UPN Veteran Jawa Timur</td>
-            </tr>
-            <tr>
-                <td>2021</td>
-                <td>Kepanitiaan Webinar UKM Renang UPN Veteran Jawa Timur</td>
-            </tr>
-            <tr>
-                <td>2021</td>
-                <td>Kepanitiaan Friendship Camp UKM Renang UPN Veteran Jawa Timur</td>
-            </tr>
-            <tr>
-                <td>2021</td>
-                <td>Kepanitiaan Majalah "Just TI" Jurusan Teknik Industri UPN Veteran Jawa Timur</td>
-            </tr>
-            <tr>
-                <td>2021</td>
-                <td>Kepanitiaan Studi Ekskursi Teknik Industri UPN Veteran Jawa Timur</td>
-            </tr>
-        </table>
-    </body>
+        </div>
+
+        <div class="class">
+            <h2 class="text-center my-3">Pengalaman Organisasi</h2>
+            <table class="table container table-light table-striped">
+                <thead>
+                    <tr>
+                      <th scope="col">No.</th>
+                      <th scope="col">Masa Organisasi</th>
+                      <th scope="col">Nama Kegiatan Organisasi</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="table-info">
+                      <th scope="row">1</th>
+                      <td>2018-2019</td>
+                      <td>Pengurus Ekstrakurikuler Pikasso SMAN 1 Sooko Mojokerto</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>2021-2022</td>
+                      <td>Pengurus UKM Renang UPN Veteran Jawa Timur</td>
+                    </tr>
+                    <tr class="table-info">
+                      <th scope="row">3</th>
+                      <td>2021</td>
+                      <td>Kepanitiaan Webinar UKM Renang UPN Veteran Jawa Timur</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>2021</td>
+                        <td>Kepanitiaan Friendship Camp UKM Renang UPN Veteran Jawa Timur</td>
+                    </tr>
+                    <tr class="table-info">
+                        <th scope="row">5</th>
+                        <td>2021</td>
+                        <td>Kepanitiaan Majalah "Just TI" Jurusan Teknik Industri UPN Veteran Jawa Timur</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>2021</td>
+                        <td>Kepanitiaan Studi Ekskursi Teknik Industri UPN Veteran Jawa Timur</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </table>
+        </div>
+
+        <div>
+            <h2 class="text-center my-3">Karakter</h2>
+            <ul class="list-group container">
+                <li class="list-group-item"><i class="bi bi-balloon-heart-fill"></i>Disiplin</li>
+                <li class="list-group-item"><i class="bi bi-balloon-heart-fill"></i>Bertanggung Jawab</li>
+                <li class="list-group-item"><i class="bi bi-balloon-heart-fill"></i>Baik</li>
+                <li class="list-group-item"><i class="bi bi-balloon-heart-fill"></i>Sopan</li>
+                <li class="list-group-item"><i class="bi bi-balloon-heart-fill"></i>Jujur</li>
+                <li class="list-group-item"><i class="bi bi-balloon-heart-fill"></i>Suka akan hal baru</li>
+              </ul>
+        </div>
+
+        <div class="container flex-row align-items-center justify-content-center">
+            <h2 class="text-center my-3">Keahlian Bahasa</h2>
+            <div class="row">
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Bahasa Indonesia</h5>
+                      <div class="container d-flex flex-row align-items-center justify-content-center">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>             
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Bahasa Inggris</h5>
+                      <div class="container d-flex flex-row align-items-center justify-content-center">
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-half"></i>             
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2 class="text-center my-3">Hobi</h2>
+                <div class="row">
+                <div class="col-3">
+                    <div class="card">
+                        <img src="travelling gambar.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">Travelling</h5>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="berenang.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">Berenang</h5>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="spd.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">Bersepeda</h5>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="fotografi.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">Fotografi</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
 </html>
