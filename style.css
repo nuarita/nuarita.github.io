@@ -1,3 +1,17 @@
+.me{
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+}
+.title{
+    font-family: 'Raleway', sans-serif;
+}
+.subtitle{
+    letter-spacing: 10px;
+}
+#hero{
+    height: 95vh;
+}
 .judul {
     color:rgb(6, 93, 128);
     background-color: #FFE3B0;
