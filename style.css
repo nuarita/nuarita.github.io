@@ -40,3 +40,11 @@
 .list-group-item{
     letter-spacing: 3px;
 }
+body{
+    background-image: url(./design\ fix.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
